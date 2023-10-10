@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="F1,Formula 1,Formula One,Racing,Race Cars">
+    <meta name="description" content="This Page Is About Formula One And FIA">
+    <meta name="author" content="Mustafa Yigit Artac">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula 1 | FIA</title>
+    <link rel="icon" href="images/F1_Favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+
+    <style>
+        p {
+            font-size: 23px;
+            padding-top: 15px;
+            color: azure;
+        }
+
+        #map {
+      height: 400px;
+      width: 100%;
+        }
+  </style>
+
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+
+  <script>
+    function initMap() {
+      var fiaHQ = {lat: 48.863334, lng: 2.293912}; // FIA HQ coordinates
+
+      var map = new google.maps.Map(document.getElementById('map'), {
+        center: fiaHQ,
+        zoom: 16
+      });
+
+      var marker = new google.maps.Marker({
+        position: fiaHQ,
+        map: map,
+        title: "FIA HQ"
+      });
+    }
+  </script>
+
+</head>
+
+<body>
+    <a href="index.html"><img src="images/F1_Favicon.png" alt="Formula One Logo" style="width:100px;height:100px;"
+            loading="lazy" id="mainlogo"></a>
+    <header>
+        <nav>
+            <div>
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li>
+                    <a href="teams.html">Teams &#9662;</a>
+                <ul class="dropdown">
+                <li><a href="teams/ferrari.html">Ferrari</a></li>
+                <li><a href="teams/redbull.html">RedBull</a></li>
+                <li><a href="teams/mercedes.html">Mercedes</a></li>
+                <li><a href="teams/astonmartin.html">Aston Martin</a></li>
+                <li><a href="teams/mclaren.html">McLaren</a></li>
+                <li><a href="teams/alpine.html">Alpine</a></li>
+                <li><a href="teams/alfaromeo.html">Alfa Romeo</a></li>
+                <li><a href="teams/alphatauri.html">AlphaTauri</a></li>
+                <li><a href="teams/haas.html">Haas</a></li>
+                <li><a href="teams/williams.html">Williams</a></li>
+                </ul>
+            </li>
+                <li><a href="calendar.html">Calendar</a></li>
+                <li><a href="rules.html">Rules</a></li>
+                <li><a href="car_parts.html">Car Parts</a></li>
+                <li><a href="fia.html">FIA</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <img src="images/fia_logo.jpg" alt="FIA Logo" style="float:left;margin:10px;width:370px;">
+        <p style="font-size:25px;padding-top:15px;">The Fédération Internationale de l'Automobile (FIA) is the governing body for international motorsport,
+            including Formula One (F1). Established in 1904, the FIA's primary objective is to promote and regulate
+            motor racing worldwide. As the pinnacle of motorsport, F1 operates under the auspices of the FIA, which
+            ensures fair competition, safety standards, and the enforcement of rules and regulations. The FIA plays a
+            crucial role in defining technical specifications, managing sporting events, and overseeing the development
+            of the sport. Its responsibilities range from setting the race calendar and licensing teams and drivers to
+            conducting rigorous safety inspections of circuits. The FIA also strives to promote sustainability and
+            environmental consciousness within motorsport, encouraging the adoption of greener technologies and
+            practices. Through its dedication to safety, fairness, and innovation, the FIA continues to shape and evolve
+            the exciting world of Formula One.</p>
+    </section>
+    <br><br>
+   
+        <h1 style="margin:10px;color:rgb(255, 255, 255);">Here are some information and facts about the FIA (Fédération
+            Internationale de l'Automobile):
+        </h1>
+        
+        <div style="background-color:rgba(255, 99, 71, 0.527);">
+        <p style="color:azure;font-size:26px;">
+            International Motorsport Federation: The FIA is an international organization that serves as the governing body for various motorsport disciplines worldwide. In addition to Formula One, it oversees other prestigious championships such as the World Rally Championship (WRC), World Endurance Championship (WEC), and the World Touring Car Cup (WTCR).<br>
+
+Promoting Safety: One of the FIA's primary concerns is ensuring safety in motorsport. It continuously works towards improving safety standards for drivers, teams, and spectators. The organization invests significant efforts in research, development, and implementation of safety technologies, such as enhanced crash structures, advanced helmets, and more effective safety <br>
+<br>
+Regulation and Rule-Making: The FIA establishes and enforces the regulations and technical specifications for Formula One and other motorsport categories. These regulations cover various aspects, including car design, engine specifications, aerodynamics, fuel usage, and driver conduct. The FIA's role is crucial in maintaining fair and competitive racing while ensuring the safety of participants.<br>
+<br>
+Licensing and Sporting Integrity: The FIA is responsible for licensing and regulating teams, drivers, and officials involved in motorsport. It sets criteria and standards that drivers and teams must meet to participate in events. The organization also plays a significant role in maintaining the integrity of motorsport by monitoring compliance with rules and taking disciplinary actions when necessary.<br>
+<br>
+Global Motorsport Development: In addition to its regulatory role, the FIA is actively involved in the development and promotion of motorsport around the world. It supports grassroots racing initiatives, invests in driver development programs, and encourages the growth of motorsport in emerging markets. The FIA's goal is to make motorsport accessible and inclusive, nurturing talent and expanding the reach of the sport.<br>
+<br>
+Environmental Commitment: Recognizing the importance of sustainability, the FIA places a growing emphasis on environmental initiatives. It encourages the development and adoption of cleaner and more efficient technologies in motorsport, such as hybrid powertrains and sustainable fuels. The FIA also works towards reducing the sport's carbon footprint and promoting environmentally responsible practices.<br>
+<br>
+Global Road Safety Campaigns: Beyond motorsport, the FIA actively promotes road safety worldwide. Through its "Action for Road Safety" campaign, the FIA raises awareness about safe driving practices, advocates for improved road infrastructure, and supports global initiatives to reduce traffic accidents and fatalities.
+        </p>
+    </div>
+    
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2759021.192013652!2d1.9665749945045405!3d47.521919420883854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fd2a7964d51%3A0xf8e166936863dcae!2sF%C3%A9d%C3%A9ration%20Internationale%20de%20l&#39;Automobile!5e0!3m2!1sen!2str!4v1686783143059!5m2!1sen!2str" width="900" height="450" style="border:0;margin-left:470px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <hr>
+
+    <footer>
+    <p style="text-align:center;color:white;font-size:15px;">&lt;&lt;&lt;&nbsp;Copyright &copy; Mustafa Yigit Artac&nbsp;&gt;&gt;&gt;</p>
+    </footer>
+    <br>
+</body>
+
+</html>
